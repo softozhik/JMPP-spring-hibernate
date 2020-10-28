@@ -73,4 +73,13 @@ public class User {
    public Car getCar() {
       return car;
    }
+
+   @Override
+   public String toString() {
+      return  "id=" + id +
+              "firstName='" + firstName + '\'' +'\n' +
+              "lastName='" + lastName + '\'' + '\n' +
+              "email='" + email + '\'' + '\n' +
+              "car=" + car;
+   }
 }
